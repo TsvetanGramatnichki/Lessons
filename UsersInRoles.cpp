@@ -16,12 +16,11 @@ public:
     int getIdRole();
     void setIdRole(int idrole);
 
-    int Print()
+    void Print()
     {
 
         cout<<"UserId=" <<UserId<<endl;
         cout<<"RoleId=" <<RoleId<<endl;
-        return UserId;
     }
 
 };
@@ -83,7 +82,7 @@ int main()
     cout<<"Information for the users:\n";
     for(int i=0; i<5; i++)
     {
-        cout<<Array[i].Print()<<endl;
+        Array[i].Print();
         cout<<endl;
     }
 
